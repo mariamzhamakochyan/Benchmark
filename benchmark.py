@@ -1,6 +1,5 @@
 import time
 import random
-import randint
 
 def delete(vector, element):
     start_time = time.time()
