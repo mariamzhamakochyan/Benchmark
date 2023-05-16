@@ -1,7 +1,7 @@
 import time
 import random
 
-def delete(vector, element):
+def delete(col, element):
     start_time = time.time()
     if element in vector:
         vector.remove(element)
@@ -30,3 +30,4 @@ print("Delation from vector: {:.6f} seconds".format(delete_time_vector))
 print("Insert in vector: {:.6f} seconds".format(insert_time_vector))
 print("Delation from list: {:.6f} seconds".format(delete_time_list))
 print("Insert in list: {:.6f} seconds".format(insert_time_list))
+
