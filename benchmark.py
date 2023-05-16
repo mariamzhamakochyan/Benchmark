@@ -1,7 +1,7 @@
 import time
 import random
 
-def delete(col, element):
+def delete(vector, element):
     start_time = time.time()
     if element in vector:
         vector.remove(element)
