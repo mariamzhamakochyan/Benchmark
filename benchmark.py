@@ -28,11 +28,9 @@ def insert_list(col, index, element):
     return end_time - start_time
     
 n = int(input("How many elements do you want to generate? "))
-random_elements1 = np.random.randint(1, 100, size=n)
-random_elements2 = [random.randint(1,100) for _ in range(n)]
+vector = np.random.randint(1, 100, size=n)
+lst = [random.randint(1,100) for _ in range(n)]
 
-vector = random_elements1.copy()
-lst = random_elements2.copy()
 
 delete_time_vector = delete_vector(vector, 3)
 insert_time_vector = insert_vector(vector, 2, 10)
