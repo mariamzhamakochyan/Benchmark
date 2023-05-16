@@ -16,7 +16,7 @@ def insert_vector(vector, index, element):
     
 def delete_list(col, element):
     start_time = time.time()
-    if element in vector:
+    if element in col:
         col.remove(element)
     end_time = time.time()
     return end_time - start_time
